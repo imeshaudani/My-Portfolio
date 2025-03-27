@@ -291,7 +291,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: blue;
+    color: #ffc400;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -303,14 +303,28 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
+.github-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #24292e; /* GitHub Black */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.github-link:hover {
+    background-color: #0abfee; /* GitHub Blue */
+}
+
 /* skills section styling */
 
 .skills .title::after{
     content: "what i know";
 }
-.skills .skills-content .column{
-    width: calc(50% - 30px);
-}
+
 .skills .skills-content .left .text{
     font-size: 20px;
     font-weight: 600;
@@ -362,21 +376,7 @@ section .title::after{
     top: 0;
     background: blue;
 }
-.skills-content .right .html::before{
-    width: 90%;
-}
-.skills-content .right .css::before{
-    width: 85%;
-}
-.skills-content .right .js::before{
-    width: 65%;
-}
-.skills-content .right .java::before{
-    width: 80%;
-}
-.skills-content .right .mysql::before{
-    width: 70%;
-}
+
 
 /* teams section styling */
 .teams .title::after{
